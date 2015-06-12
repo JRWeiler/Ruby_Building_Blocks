@@ -1,7 +1,6 @@
 def substrings(wordString, subStrings)
   output = Hash.new()
   wordArray = wordString.split(/\W/).reject!{|w| w.empty?}
-  puts wordArray
   subStrings.each do |word|
     count = 0
     wordArray.each do |sub|
