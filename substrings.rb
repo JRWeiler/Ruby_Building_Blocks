@@ -18,4 +18,4 @@ def substrings(wordString, subStrings)
 end
 
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]  
-puts substrings("It's time to go and see it, but HOW! will it go down below?",dictionary)
+puts substrings("It's time to go and see it, but HOW! and how will it go down below?",dictionary)
